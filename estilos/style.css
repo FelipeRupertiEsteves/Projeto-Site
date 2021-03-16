@@ -4,13 +4,20 @@
 }
 
 body {
-    background-color: rgb(126, 58, 58);
+    background-color: #F1EFCD;
 }
 
 main {
     width: 600px;
     margin: auto;
     padding: 15px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.548);
 }
 
+header {
+    margin: auto;
+    padding: 5px;
+}
+
+.welcome {
+    flex: auto;
+}
