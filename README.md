@@ -9,7 +9,7 @@ Para isso, estou utilizando a ferramenta Git Desktop, integrado ao VSCode.
 
 ## O que estou utilizando até aqui:
 * HTML5 
-* CSS3
+* CSS e Bootstrap
 * Javascript
 
 Venho estudando para programação Web com alguns cursos e muita pesquisa. 
