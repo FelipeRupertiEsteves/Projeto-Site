@@ -34,7 +34,7 @@
     }
     
     body {
-        background-color: rgba(245, 230, 201, 0.863);
+        background-color: rgba(245, 234, 212, 0.932);
         font-size: 1em;
         font-family: sans-serif;
         color: steelblue;
@@ -77,12 +77,12 @@
     }
     
     .campo input:focus, .campo select:focus, .campo textarea:focus {
-        background: rgba(18, 201, 201, 0.685);
+        background: rgba(211, 252, 252, 0.685);
     }
     
     .botao {
         font-size: 1.2em;
-        background:rgba(94, 228, 217, 0.945);
+        background:rgba(210, 255, 251, 0.945);
         border: 0;
         margin-bottom: 1em;
         color: #ffffff;
@@ -104,4 +104,23 @@
     
     #check {
         display: inline-block;
+    }
+
+    .calculadora{
+        justify-content: center;
+    }
+    .visor{
+        width: 9em;
+        height: 2;
+        padding: 0.2em;
+        border: 2px 2px 2px 2px;
+
+    }
+    .tecla{
+        font-family: sans-serif;
+        padding: 0.75em;
+        color: blanchedalmond;
+        background-color: steelblue;
+        border: none;
+        box-shadow: 2px 2px 5px;
     }
