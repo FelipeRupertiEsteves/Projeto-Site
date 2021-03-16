@@ -3,38 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora 2</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/estilos/style.css">
     <script language="javascript" src="/calculadora/calculadora.js"></script>
 </head>
 <body>
     <div>
         <h1>Calculadora simples</h1>
     </div>
-
+    <hr>
     <div class="calculadora">
         <form action="" name="calc">
             <div id="calculadora">
-                <input type="text" id="visor" name="visor">
-                <div id="primeira">
+                <input class="visor" type="text" id="visor" name="visor">
+                <hr>
+                <div class="primeira_linha" id="primeira">
                     <input type="button" value="7" onclick="botao(value)" class="tecla">
                     <input type="button" value="8" onclick="botao(value)" class="tecla">
                     <input type="button" value="9" onclick="botao(value)" class="tecla">
                     <input type="button" value="/" onclick="botao(value)" class="tecla">
                 </div>
-                <div id="segunda">
+                <div class="segunda_linha" id="segunda">
                     <input type="button" value="4" onclick="botao(value)" class="tecla">
                     <input type="button" value="5" onclick="botao(value)" class="tecla">
                     <input type="button" value="6" onclick="botao(value)" class="tecla">
                     <input type="button" value="*" onclick="botao(value)" class="tecla">
                 </div>
-                <div id="terceira">
+                <div class="terceira_linha" id="terceira">
                     <input type="button" value="1" onclick="botao(value)" class="tecla">
                     <input type="button" value="2" onclick="botao(value)" class="tecla">
                     <input type="button" value="3" onclick="botao(value)" class="tecla">
                     <input type="button" value="-" onclick="botao(value)" class="tecla">
                 </div> 
-                <div id="quarta">
+                <div class="quarta_linha" id="quarta">
                     <input type="button" value="C" onclick="reset()" class="tecla">
                     <input type="button" value="0" onclick="botao(value)" class="tecla">
                     <input type="button" value="=" onclick="calcula()" class="tecla">
@@ -44,9 +45,9 @@
         
         </form>
     </div>
-
+    <hr>
     <div>
-        <a href="">Voltar ao Início</a>
+        <a href="/index.html">Voltar ao Início</a>
     </div>
 
 </body>
