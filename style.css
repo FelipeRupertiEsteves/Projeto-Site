@@ -1,119 +1,46 @@
-
-#container1{
-    padding: 10%;
-    align-content: center;
-    display: block;
-}
-
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
 }
-
-#titulo{
-    font-family: sans-serif;
-    color: teal;
-    margin-left: 7%;
-}
-
-#subtitulo {
-    font-family: sans-serif;
-    color: rgb(228, 110, 89);
-    margin-left: 10%;
-}
-
-fieldset{
-    border: 0;
-}
-
 body {
-    background-color: rgba(245, 234, 212, 0.932);
-    font-size: 1em;
+    background-color: #e4e4e470;
+}
+.titulo {
+    background-color: rgb(68, 106, 231);
+    font-family:sans-serif;
+    font-size: 6px;
+    color: white;
+    align-items: center;
+    padding-left: 10%;
+}
+h2 {
     font-family: sans-serif;
-    color: steelblue;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    justify-content: center;
-
 }
-
-input, select, textarea, button{
-    border-radius: 5px;
-
+#exemplos{
+    background-color: rgba(255, 235, 205, 0.411);
 }
-
-.campo {
-    margin-bottom: 1em;
+#container {
+    background-color:blanchedalmond;
 }
-
-.campo label{
-    margin-bottom: 0.1em;
-    color:steelblue;
-    display: block;
-}
-
-fieldset.grupo .campo {
-    float: left;
-    margin-right: 1em;
-}
-
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
-    padding: 0.2em;
-    border: 1px solid #0000009f;
+.campo input {
+    padding: 0.1em;
+    border-radius: 0.5em;
+    border: 1px solid;
     box-shadow: 2px 1px 1px;
-    display: block;
 }
-
-.campo select option{
-    padding-right: 1em;
+.visor {
+    color: tomato;
+    text-align:right;
+    width: 150px;
+    padding: 10px;
+    border-radius: 0.5em;
+    border: 2px 2px 1px solid;
+    box-shadow: 2px 2px 1px black;
 }
-
-.campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: rgba(211, 252, 252, 0.685);
-}
-
-.botao {
-    font-size: 1.2em;
-    background:rgba(210, 255, 251, 0.945);
-    border: 0;
-    margin-bottom: 1em;
-    color: #ffffff;
-    padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgb(255, 187, 98);
-    text-shadow: 1px 1px 1px rgb(255, 174, 174);
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
-.botao:hover {
-    background:rgb(79, 207, 201);
-    box-shadow: inset 2px 2px 2px;
-    text-shadow: none;
-}
-
-#check {
-    display: inline-block;
-}
-
-.calculadora{
-    justify-content: center;
-}
-.visor{
-    width: 11em;
-    height: 2;
-    padding: 0.2em;
-    border: 2px 2px 2px 2px;
-
-}
-.tecla{
-    font-family: sans-serif;
-    padding: 1em;
-    color: blanchedalmond;
-    background-color: steelblue;
-    border: none;
-    box-shadow: 2px 2px 5px;
+.linha input {
+    background-color: rgb(216, 216, 216);
+    font-size: 1.1em;
+    padding: 10px;
+    border: 2px 2px 1px solid;
+    box-shadow: 2px 2px 1px;
 }

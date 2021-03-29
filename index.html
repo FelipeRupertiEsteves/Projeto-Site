@@ -6,141 +6,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felipe Ruperti Esteves</title>    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/1aa5e570ac.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script language="javascript" src="calculadora.js"></script>
 </head>
-
 <body>
+    <header class="titulo">        
+        <div class="container">
+            <h1>Felipe Ruperti Esteves</h1>
+        </div>
+    </header>
     <main>
-        <div class="container1">
-            
-            <h1 >Felipe Ruperti Esteves</h1>
+        <div class="container" id="container">
             <p >Neste site venho aplicando meus conhecimentos em cursos e pesquisas sobre HTML 5, CSS 3 com Bootstrap e JavaScript, pois a melhor forma de fixar o conteúdo é praticando!</p>
             <p>
                 <a onclick="alert('e-mail: felipeesteves91@gmail.com')" class="btn btn-primary my-2" href="#" >Contato</a>
-                <a href="https://www.linkedin.com/in/felipe-ruperti-esteves-5b08451b5/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/FelipeRupertiEsteves"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/felipeesteves91/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/felipe-ruperti-esteves-5b08451b5/"><i class=""></i></a>
+                <a href="https://github.com/FelipeRupertiEsteves"><i class=""></i></a>
+                <a href="https://www.instagram.com/felipeesteves91/"><i class=""></i></a>
             </p>
-        </div> <br> <hr>        
-        <p>
-            Abaixo coloco alguns pequenos projetos como exemplo
-        </p>
-        <section>            
-            <div>
-                <h1 id="titulo">Tela de cadastro</h1><br>
-                <p id="subtitulo">Complete com suas informações</p>
-            </div>
-            <form action="">
-                <fieldset class="grupo">
+            <hr>
+        </div>       
+        <div class="container">
+            <p id="exemplos">
+                Abaixo coloco alguns pequenos projetos como exemplo
+            </p>
+        </div>
+        <section>
+            <div id="container" class="container">
+                <div>
+                    <h2 id="subtitulo">Tela de cadastro</h2><br>
+                    <p id="">Complete com suas informações</p>
+                </div>
+                <form action="">
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="nome"><strong>Nome</strong></label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+                        <div class="campo">
+                            <label for="sobrenome"><strong>Sobrenome</strong></label>
+                            <input type="text" name="sobrenome" id="sobrenome" required>
+                        </div>
+                    </fieldset>
                     <div class="campo">
-                        <label for="nome"><strong>Nome</strong></label>
-                        <input type="text" name="nome" id="nome" required>
+                        <label for="email"><strong>Email</strong></label>
+                        <input required type="email" name="email" id="email" >
                     </div>
                     <div class="campo">
-                        <label for="sobrenome"><strong>Sobrenome</strong></label>
-                        <input type="text" name="sobrenome" id="sobrenome" required>
+                        <label for=""><strong>De Qual lado da aplicação você desenvolve?</strong></label>
+                        <label for="frontend">
+                            <input type="radio" name="devweb" value="frontend">Front-end
+                        </label>
+                        <label for="backend">
+                            <input type="radio" name="devweb" value="backend">Back-end
+                        </label>
+                        <label for="fullstack">
+                            <input type="radio" name="devweb" value="fullstack">Full Stack
+                        </label>
                     </div>
-                </fieldset>
-                <div class="campo">
-                    <label for="email"><strong>Email</strong></label>
-                    <input required type="email" name="email" id="email" >
-                </div>
-                <div class="campo">
-                    <label for=""><strong>De Qual lado da aplicação você desenvolve?</strong></label>
-                    <label for="frontend">
-                        <input type="radio" name="devweb" value="frontend">Front-end
-                    </label>
-                    <label for="backend">
-                        <input type="radio" name="devweb" value="backend">Back-end
-                    </label>
-                    <label for="fullstack">
-                        <input type="radio" name="devweb" value="fullstack">Full Stack
-                    </label>
-                </div>
-                <div class="campo">
-                    <label for="senioridade"><strong>Senioridade</strong></label>
-                    <select name="" id="senioridade">
-                        <option selected disable value="">Selecione</option>
-                        <option value="junior">Junior</option>
-                        <option value="pleno">Pleno</option>
-                        <option value="senior">Senior</option>
-                    </select>
-                </div>
-                <fieldset>
-                    <div id="check">
-                        <label for=""><strong>Selecione as tecnologias que você utiliza:</strong></label><br>
-                        <input type="checkbox" id="tecnologia1" name="tecnologia" value="HTML">
-                        <label for="tecnologia1">HTML</label>
-                        <input type="checkbox" id="tecnologia2" name="tecnologia" value="CSS">
-                        <label for="tecnologia2">CSS</label>
-                        <input type="checkbox" id="tecnologia3" name="tecnologia" value="PHP">
-                        <label for="tecnologia3">PHP</label>
-                        <input type="checkbox" id="tecnologia4" name="tecnologia" value="JavaScript">
-                        <label for="tecnologia4">JavaScript</label>
-                        <input type="checkbox" id="tecnologia5" name="tecnologia" value="C#">
-                        <label for="tecnologia5">C#</label>
-                        <input type="checkbox" id="tecnologia6" name="tecnologia" value="Python">
-                        <label for="tecnologia6">Python</label>
-                        <input type="checkbox" id="tecnologia7" name="tecnologia" value="Java">
-                        <label for="tecnologia7">Java</label>
+                    <div class="campo">
+                        <label for="senioridade"><strong>Senioridade</strong></label>
+                        <select name="" id="senioridade">
+                            <option selected disable value="">Selecione</option>
+                            <option value="junior">Junior</option>
+                            <option value="pleno">Pleno</option>
+                            <option value="senior">Senior</option>
+                        </select>
                     </div>
-                </fieldset>
-                <div class="campo">
-                <br>
-                <label for=""><strong>Conte um pouco sobre sua experiência:</strong></label>
-                <textarea name="experiencia" id="experiencia" cols="35" rows="6"></textarea>
-            </div>
-            <button class="btn btn-primary" type="submit" onclick="alert('Obrigado!!!')" >Concluído</button>
-            </form>
+                    <fieldset>
+                        <div id="check">
+                            <label for=""><strong>Selecione as tecnologias que você utiliza:</strong></label><br>
+                            <input type="checkbox" id="tecnologia1" name="tecnologia" value="HTML">
+                            <label for="tecnologia1">HTML</label>
+                            <input type="checkbox" id="tecnologia2" name="tecnologia" value="CSS">
+                            <label for="tecnologia2">CSS</label>
+                            <input type="checkbox" id="tecnologia3" name="tecnologia" value="PHP">
+                            <label for="tecnologia3">PHP</label>
+                            <input type="checkbox" id="tecnologia4" name="tecnologia" value="JavaScript">
+                            <label for="tecnologia4">JavaScript</label>
+                            <input type="checkbox" id="tecnologia5" name="tecnologia" value="C#">
+                            <label for="tecnologia5">C#</label>
+                            <input type="checkbox" id="tecnologia6" name="tecnologia" value="Python">
+                            <label for="tecnologia6">Python</label>
+                            <input type="checkbox" id="tecnologia7" name="tecnologia" value="Java">
+                            <label for="tecnologia7">Java</label>
+                        </div>
+                    </fieldset>
+                    <div class="campo">
+                    <br>
+                    <textarea placeholder="Conte um pouco sobre sua experiência." name="experiencia" id="experiencia" cols="35" rows="6"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit" onclick="alert('Obrigado!!!')" >Concluído</button> <hr>
+                </form>
+            </div>                            
         </section>
     </main>
-    <br><hr><br>
+    <br>
     <section>
-        <div>
-            <h1>Calculadora simples</h1>
+        <div id="container" class="container">
+            <div>
+                <h2>Calculadora simples</h2>
+            </div>
+            <div class="calculadora">
+                <form action="" name="calc">
+                    <div id="calculadora">
+                        <input class="visor" type="text" id="visor" name="visor">
+                        <div class="linha" id="primeira">
+                            <input type="button" value="7" onclick="botao(value)" class="tecla">
+                            <input type="button" value="8" onclick="botao(value)" class="tecla">
+                            <input type="button" value="9" onclick="botao(value)" class="tecla">
+                            <input type="button" value="/" onclick="botao(value)" class="tecla">
+                        </div>
+                        <div class="linha" id="segunda">
+                            <input type="button" value="4" onclick="botao(value)" class="tecla">
+                            <input type="button" value="5" onclick="botao(value)" class="tecla">
+                            <input type="button" value="6" onclick="botao(value)" class="tecla">
+                            <input type="button" value="*" onclick="botao(value)" class="tecla">
+                        </div>
+                        <div class="linha" id="terceira">
+                            <input type="button" value="1" onclick="botao(value)" class="tecla">
+                            <input type="button" value="2" onclick="botao(value)" class="tecla">
+                            <input type="button" value="3" onclick="botao(value)" class="tecla">
+                            <input type="button" value="-" onclick="botao(value)" class="tecla">
+                        </div>
+                        <div class="linha" id="quarta">
+                            <input type="button" value="C" onclick="reset()" class="tecla">
+                            <input type="button" value="0" onclick="botao(value)" class="tecla">
+                            <input type="button" value="=" onclick="calcula()" class="tecla">
+                            <input type="button" value="+" onclick="botao(value)" class="tecla">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <hr>
         </div>
-        
-        <div class="calculadora">
-            <form action="" name="calc">
-                <div id="calculadora">
-                    <input class="visor" type="text" id="visor" name="visor">
-                    
-                    <div class="primeira_linha" id="primeira">
-                        <input type="button" value="7" onclick="botao(value)" class="tecla">
-                        <input type="button" value="8" onclick="botao(value)" class="tecla">
-                        <input type="button" value="9" onclick="botao(value)" class="tecla">
-                        <input type="button" value="/" onclick="botao(value)" class="tecla">
-                    </div>
-                    <div class="segunda_linha" id="segunda">
-                        <input type="button" value="4" onclick="botao(value)" class="tecla">
-                        <input type="button" value="5" onclick="botao(value)" class="tecla">
-                        <input type="button" value="6" onclick="botao(value)" class="tecla">
-                        <input type="button" value="*" onclick="botao(value)" class="tecla">
-                    </div>
-                    <div class="terceira_linha" id="terceira">
-                        <input type="button" value="1" onclick="botao(value)" class="tecla">
-                        <input type="button" value="2" onclick="botao(value)" class="tecla">
-                        <input type="button" value="3" onclick="botao(value)" class="tecla">
-                        <input type="button" value="-" onclick="botao(value)" class="tecla">
-                    </div> 
-                    <div class="quarta_linha" id="quarta">
-                        <input type="button" value="C" onclick="reset()" class="tecla">
-                        <input type="button" value="0" onclick="botao(value)" class="tecla">
-                        <input type="button" value="=" onclick="calcula()" class="tecla">
-                        <input type="button" value="+" onclick="botao(value)" class="tecla">
-                    </div>
-                </div>
-            
-            </form>
-        </div>
-        <hr>
     </section>
-
+    <section>
+        <br>
+        <div id="container" class="container">
+            <div class="todo">
+                <div>
+                    <h2>Lista de tarefas</h2>
+                </div>
+                <div class="todo_list" id="todoList">
+                    <label for="" class="todoItem" id="todoItem">
+                        <input type="checkbox">
+                        <div>teste iten 1</div>
+                        <input type="button" value="X">
+                    </label>
+                </div>
+                <div class="todoNewItem" id="todoNewItem">
+                    <div>&and;</div>
+                    <input type="text" placeholder="Digite e pressione Enter para adicionar um novo item à sua lista">
+                    <div>&and;</div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <script type="text/javascript" src="/todo.js"></script>
+    </section>
 </body>
-
 </html>
