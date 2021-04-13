@@ -143,27 +143,22 @@
     </section>
     <section>
         <br>
-        <div id="container" class="container">
-            <div class="todo">
-                <div>
-                    <h2>Lista de tarefas</h2>
-                    <p> -- Em desenvolvimento --</p>
+            <div id="container" class="container">
+                <div class="container-1">
+                    <h2>Lista de tarefas.</h2>
+                    <p>O que você precisa fazer?</p>
                 </div>
-                <div class="todo_list" id="todoList">
-                    <label for="" class="todoItem" id="todoItem">
-                        <input type="checkbox">
-                        <div>teste iten 1</div>
-                        <input type="button" value="X">
-                    </label>
+                <div class="container-2">
+                    <div class="input-group mb-3">
+                        <input id="to-do" type="text" class="form-control" placeholder="Digite aqui sua tarefa" aria-label="Recipient username" aria-describedby="button-addon2">
+                        <div onclick="submitToDo()" class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">+</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="todoNewItem" id="todoNewItem">
-                    <div>&and;</div>
-                    <input type="text" placeholder="Digite e pressione Enter para adicionar um novo item à sua lista">
-                    <div>&and;</div>
-                </div>
+                <div class="container-3"></div>
+                <br>
             </div>
-            <hr>
-        </div>
         <script type="text/javascript" src="/todo.js"></script>
     </section>
 </body>
