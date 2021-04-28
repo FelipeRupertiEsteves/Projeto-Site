@@ -1,3 +1,23 @@
+// Calculadora
+var valor;
+var resultado;
+
+function botao(num) {
+    valor = document.calc.visor.value += num;
+}
+
+function reseta() {
+    document.calc.visor.value = '';
+}
+
+function calcula() {
+    resultado = eval(valor);
+    document.calc.visor.value = resultado;
+}
+
+
+
+// To Do List
 var container3 = document.getElementsByClassName("container-3")[0];
 var i = 0;
 
@@ -32,3 +52,4 @@ function random_color(){
     }
     return random_color[i++]
 }
+
