@@ -16,7 +16,6 @@ function calcula() {
 }
 
 
-
 // To Do List
 var container3 = document.getElementsByClassName("container-3")[0];
 var i = 0;
