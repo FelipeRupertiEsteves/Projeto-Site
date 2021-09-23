@@ -1,49 +1,52 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+/*
+        * {
+            padding: 0;
+            margin: 0;
+        }
 
-.titulo {
-    background-color: rgb(68, 106, 231);
-    font-family:sans-serif;
-    font-size: 6px;
-    color: white;
-    align-items: center;
-    padding-left: 10%;
-}
+        .titulo {
+            background-color: rgb(68, 106, 231);
+            font-family:sans-serif;
+            font-size: 6px;
+            color: white;
+            align-items: center;
+            padding-left: 10%;
+        }
 
-#description{
-    font-size: large;
-}
+        #description{
+            font-size: large;
+        }
 
-h2 {
-    font-family: sans-serif;
-}
-#exemplos{
-    background-color: rgba(255, 235, 205, 0.411);
-}
-#container {
-    background-color:blanchedalmond;
-}
-.campo input {
-    padding: 0.1em;
-    border-radius: 0.5em;
-    border: 1px solid;
-    box-shadow: 2px 1px 1px;
-}
-.visor {
-    color: tomato;
-    text-align:right;
-    width: 150px;
-    padding: 10px;
-    border-radius: 0.5em;
-    border: 2px 2px 1px solid;
-    box-shadow: 2px 2px 1px black;
-}
-.linha input {
-    background-color: rgb(216, 216, 216);
-    font-size: 1.1em;
-    padding: 10px;
-    border: 2px 2px 1px solid;
-    box-shadow: 2px 2px 1px;
-}
+        h2 {
+            font-family: sans-serif;
+        }
+        #exemplos{
+            background-color: rgba(255, 235, 205, 0.411);
+        }
+        #container {
+            background-color:blanchedalmond;
+        }
+        .campo input {
+            padding: 0.1em;
+            border-radius: 0.5em;
+            border: 1px solid;
+            box-shadow: 2px 1px 1px;
+        }
+        .visor {
+            color: tomato;
+            text-align:right;
+            width: 150px;
+            padding: 10px;
+            border-radius: 0.5em;
+            border: 2px 2px 1px solid;
+            box-shadow: 2px 2px 1px black;
+        }
+        .linha input {
+            background-color: rgb(216, 216, 216);
+            font-size: 1.1em;
+            padding: 10px;
+            border: 2px 2px 1px solid;
+            box-shadow: 2px 2px 1px;
+        }
+
+*/
