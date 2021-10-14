@@ -13,11 +13,13 @@ function reseta() {
 function calcula() {
     resultado = eval(valor);
     document.calc.visor.value = resultado;
+    
+        
 }
 
 
 // To Do List
-var container3 = document.getElementsByClassName("container-3")[0];
+var container3 = document.getElementsByClassName('container-3')[0];
 var i = 0;
 
 function submitToDo(){
