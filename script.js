@@ -37,8 +37,8 @@ function submitToDo(){
 
     container3.insertAdjacentElement("beforeend",node0);
 
-    node2.style.marginLeft = "45px";
-    node0.setAttribute("style", "border-radius:5px;padding:15px 10px 5px 20px; color#434a54;margin-top:10px; font-size:25px; overflow:hidden")
+    node2.style.marginLeft = "5px";
+    node0.setAttribute("style", "border-radius:5px;padding:5px 5px 5px 5px; color#434a54;margin-top:10px; font-size:25px; overflow:hidden")
     node0.stylebackground = random_color();
 
     node0.addEventListener("dblclick", function(){
