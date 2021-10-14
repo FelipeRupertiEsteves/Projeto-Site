@@ -12,9 +12,10 @@ function reseta() {
 
 function calcula() {
     resultado = eval(valor);
-    document.calc.visor.value = resultado;
-    
-        
+    if (resultado == "Infinity") {
+        document.calc.visor.value = 'Erro. Não pode dividir por zero.';            
+    }
+    else    document.calc.visor.value = resultado;
 }
 
 
