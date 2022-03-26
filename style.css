@@ -1,7 +1,11 @@
+/* deixar default a página   */
+
 * {
     padding: 0;
     margin: 0;
 }
+
+/* Estilos gerais da página*/
 
 .titulo {
     background-color: rgb(68, 106, 231);
@@ -20,16 +24,23 @@ h2 {
     font-family: sans-serif;
 }
 
+/*Tela de cadastro */
+
 #exemplos{
     background-color: rgba(255, 235, 205, 0.411);
 }
 
+.grupo {
+    
+}
 .campo input {
     padding: 0.1em;
     border-radius: 0.5em;
     border: 1px solid;
-    box-shadow: 2px 1px 1px;
+    cursor: pointer;
 }
+
+/*Calculadora */
 
 .visor {
     color: tomato;
@@ -68,3 +79,4 @@ h2 {
     box-shadow: 2px 2px 1px;
 } 
 
+/*TODO List*/
