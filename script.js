@@ -54,4 +54,3 @@ function random_color(){
     }
     return random_color[i++]
 }
-
