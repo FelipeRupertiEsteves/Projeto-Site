@@ -8,3 +8,25 @@ body{
     color: rgb(184, 200, 250);
     background-color: rgb(40, 38, 56);
 }
+
+/* Estilo da Calculadora */
+.visor {
+    height: 30px;
+    border: 10px;
+    padding: 0.2%;
+    color: aliceblue;
+    background-color: rgb(92, 92, 92);
+}
+
+.tecla {
+    border-radius: 15%;
+    
+    width: 30px;
+    background-color: black;
+    color: rgb(225, 243, 243);
+}
+
+painel {
+    background-color: rgb(70, 70, 70);
+
+}
