@@ -1,13 +1,29 @@
-* {
+*{
     padding: 0;
     margin: 0;
+    
 }
 
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(184, 200, 250);
-    background-color: rgb(40, 38, 56);
+    background-image: linear-gradient(to top, #68a5e6, #C3CEDA);
+    background-attachment: fixed;
+    font-size: 1.2em;
 }
+
+main {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(20, 53, 95, 0.295);
+    width: 900px;
+    padding: 20px;
+    margin: 10px auto;
+
+}
+
+h1{
+    text-align: center;
+}
+
 
 /* Estilo da Calculadora */
 .visor {
