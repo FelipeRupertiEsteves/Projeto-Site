@@ -23,9 +23,18 @@ function calcula() {
 var container3 = document.getElementsByClassName('container-3')[0];
 var i = 0;
 
+function random_color(){
+    var random_colors = ['#fffff','rgb(206, 181, 167)','rgb(161, 124, 107)','rgb(91, 123, 122)'];
+
+    if (i > random_colors.length - 1){
+        i = 0;
+    }
+    return random_color[i++]
+}
+
 function submitToDo(){
     var to_do = document.getElementById("to-do").value;
-    var node0 = document.createElement("div");
+    var node0 = document.createElement("div")
     var node1 = document.createElement("input");
     var node2 = document.createElement ("p");
 
@@ -38,7 +47,7 @@ function submitToDo(){
     container3.insertAdjacentElement("beforeend",node0);
 
     node2.style.marginLeft = "5px";
-    node0.setAttribute("style", "border-radius:5px;padding:5px 5px 5px 5px; color#434a54;margin-top:10px; font-size:25px; overflow:hidden")
+    node0.setAttribute("style", "border-radius:5px; padding:5px 5px 5px 5px; color#434a54; margin-top:10px; font-size:25px; align-content:flex-start; ")
     node0.stylebackground = random_color();
 
     node0.addEventListener("dblclick", function(){
@@ -46,11 +55,4 @@ function submitToDo(){
     })
 }
 
-function random_color(){
-    var random_colors = ['rgb(224, 242, 233)','rgb(206, 181, 167)','rgb(161, 124, 107)','rgb(91, 123, 122)'];
 
-    if (i > random_colors.length - 1){
-        i = 0;
-    }
-    return random_color[i++]
-}

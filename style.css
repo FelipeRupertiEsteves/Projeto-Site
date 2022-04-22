@@ -52,3 +52,9 @@ painel {
     background-color: rgb(70, 70, 70);
 
 }
+
+/* Estilo TODO list */
+.tododiv {
+    background-color: aqua;
+    
+}
