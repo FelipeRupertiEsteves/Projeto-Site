@@ -8,54 +8,49 @@
         <meta name="description" content="Meu Site de estudos">    
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="../Style/style.css">
+        <link rel="shortcut icon" href="../Index/favicon.ico" type="image/x-icon">
         <script language="javascript" src="./calculadora.js"></script>
     </head>
-
     <!-- Calculadora -->
-
     <header>        
-        <div class="container">
-            
-        </div>
     </header>
     <body>
-            <main>
-                <section>
-                    <a href="../Index/index.html"><h1>Felipe Ruperti Esteves</h1></a>
-                    <div class="container">
-                        <div class="container-1">
-                            <h2>Calculadora</h2>
-                        </div>
-                        <form action="" name="calc">
-                            <div>
-                                <input class="visor" type="text" id="visor" name="visor">
-                                <div class="painel" id="primeira">
-                                    <input type="button" value="7" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="8" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="9" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="/" onclick="botao(value)" class="tecla">
-                                    <br>
-                                    <input type="button" value="4" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="5" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="6" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="*" onclick="botao(value)" class="tecla">
-                                    <br>
-                                    <input type="button" value="1" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="2" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="3" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="-" onclick="botao(value)" class="tecla">
-                                    <br>
-                                    <input type="button" value="C" onclick="reset()" class="tecla">
-                                    <input type="button" value="0" onclick="botao(value)" class="tecla">
-                                    <input type="button" value="=" onclick="calcula()" class="tecla">
-                                    <input type="button" value="+" onclick="botao(value)" class="tecla">
-                                </div>
+        <main>
+            <section>
+                <a href="../Index/index.html"><h1>Felipe Ruperti Esteves</h1></a>
+                <div class="calculadora">
+                    <form action="" name="calc">
+                        <div>
+                            <div class="calculadora"><h2>Calculadora</h2></div>
+                            
+                            <input class="visor" type="text" id="visor" name="visor">
+                            <div class="painel" id="primeira">
+                                <input type="button" value="7" onclick="botao(value)" class="tecla">
+                                <input type="button" value="8" onclick="botao(value)" class="tecla">
+                                <input type="button" value="9" onclick="botao(value)" class="tecla">
+                                <input type="button" value="/" onclick="botao(value)" class="tecla">
+                                <br>
+                                <input type="button" value="4" onclick="botao(value)" class="tecla">
+                                <input type="button" value="5" onclick="botao(value)" class="tecla">
+                                <input type="button" value="6" onclick="botao(value)" class="tecla">
+                                <input type="button" value="*" onclick="botao(value)" class="tecla">
+                                <br>
+                                <input type="button" value="1" onclick="botao(value)" class="tecla">
+                                <input type="button" value="2" onclick="botao(value)" class="tecla">
+                                <input type="button" value="3" onclick="botao(value)" class="tecla">
+                                <input type="button" value="-" onclick="botao(value)" class="tecla">
+                                <br>
+                                <input type="button" value="C" onclick="reset()" class="tecla">
+                                <input type="button" value="0" onclick="botao(value)" class="tecla">
+                                <input type="button" value="=" onclick="calcula()" class="tecla">
+                                <input type="button" value="+" onclick="botao(value)" class="tecla">
                             </div>
-                        </form>
-                    </div>
-                    <hr>
-                </section>
-            </main>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+            </section>
+        </main>
     </body>
     <footer></footer>
 </html>

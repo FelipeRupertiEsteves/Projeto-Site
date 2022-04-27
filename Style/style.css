@@ -12,45 +12,47 @@ body{
 
 main {
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(229, 234, 238);
     box-shadow: 5px 5px 15px rgba(20, 53, 95, 0.295);
     width: 900px;
     padding: 20px;
     margin: 10px auto;
-
 }
 
 h1{
+    padding: 20px;
     text-align: center;
 }
 
-section{
-    align-content: center;
+section{    
+    align-content: center;    
+}
+
+li{
+    color: steelblue;
 }
 
 /* Estilo da Calculadora */
+.calculadora{
+    display: flex;
+    justify-content: center;
+}
 .visor {
     height: 30px;
     width: 270px;
     border: 10px;
-    padding: 0.2%;
+    padding: 0.4%;
     color: aliceblue;
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(92, 92, 92);    
 }
-
 .tecla {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
     margin-top: 5px;
     height: 40px;
     width: 63px;
+    box-shadow: 10px teal;
     background-color: black;
     color: rgb(225, 243, 243);
-}
-
-painel {
-    background-color: rgb(70, 70, 70);
-
 }
 
 /* Estilo TODO list */
@@ -58,3 +60,5 @@ painel {
     background-color: aqua;
     
 }
+
+/* Estilo Tela de Cadastro */
