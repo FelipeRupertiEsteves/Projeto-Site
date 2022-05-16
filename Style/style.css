@@ -32,6 +32,17 @@ li{
     color: steelblue;
 }
 
+/* Manutenção */ 
+
+
+
+/* Estilo página da Lampada */
+#interruptor {
+    
+}
+
+
+
 /* Estilo da Calculadora */
 .calculadora{
     display: flex;
