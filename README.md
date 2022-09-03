@@ -3,14 +3,13 @@
 
 https://feliperupertiesteves.github.io/Projeto-Site/
 
-A intenção deste projeto é de principalmente aplicar meus conhecimentos em Git e GitHub aplicando alguns comandos, como Commits, Branches, Merges, Pulls, Requests e etc.
+A intenção deste projeto é de principalmente aplicar meus conhecimentos.
 Para isso, estou utilizando a ferramenta Git Desktop, integrado ao VSCode.
  ---
-
 ## O que estou utilizando por aqui:
-* HTML5 
-* CSS e Bootstrap
+* HTML
+* CSS
+* Bootstrap
 * Javascript
 
 Venho estudando para programação Web com alguns cursos e muita pesquisa. 
-
