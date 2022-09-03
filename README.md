@@ -7,7 +7,7 @@ A intenção deste projeto é de principalmente aplicar meus conhecimentos em Gi
 Para isso, estou utilizando a ferramenta Git Desktop, integrado ao VSCode.
  ---
 
-## O que estou utilizando até aqui:
+## O que estou utilizando por aqui:
 * HTML5 
 * CSS e Bootstrap
 * Javascript
