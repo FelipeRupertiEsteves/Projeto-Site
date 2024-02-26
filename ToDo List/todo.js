@@ -9,7 +9,7 @@ function random_color(){
     if (i > random_colors.length - 1){
         i = 0;
     }
-    return random_color[i++]
+    return random_color[i++];
 }
 
 function submitToDo(){
@@ -19,6 +19,7 @@ function submitToDo(){
     var node2 = document.createElement ("p");
 
     node1.type = "checkbox";
+
     node2.innerHTML = to_do;
 
     node0.appendChild(node1);
@@ -26,13 +27,11 @@ function submitToDo(){
 
     container3.insertAdjacentElement("beforeend",node0);
 
-    node2.style.marginLeft = "5px";
-    node0.setAttribute("style", "border-radius:5px; padding:5px 5px 5px 5px; color#434a54; margin-top:10px; font-size:25px; align-content:flex-start; ")
-    node0.stylebackground = random_color();
+    node2.style.marginLeft = '15px';
+    node0.style.setProperty= ("style','border-radius:15px; padding:5px 5px 5px 5px; color#234a54; margin-top:10px; font-size:5px; align-content:flex-start;")
+    node0.backgroundColor = random_color();
 
     node0.addEventListener("dblclick", function(){
         node0.remove();
     })
 }
-
-
