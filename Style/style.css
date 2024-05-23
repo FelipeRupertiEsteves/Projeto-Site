@@ -4,7 +4,19 @@
     
 }
 
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900 */
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 body{
+    font-family: "Montserrat", sans-serif;
     background-image: linear-gradient(to top, #68a5e6, #C3CEDA);
     background-attachment: fixed;
     font-size: 1.2em;
@@ -19,7 +31,20 @@ main {
     margin: 10px auto;
 }
 
+title{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+    text-align: center;
+}
+
 h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     padding: 20px;
     text-align: center;
 }
@@ -57,7 +82,7 @@ li{
     background-color: rgb(92, 92, 92);    
 }
 .tecla {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 5px;
     height: 40px;
     width: 63px;

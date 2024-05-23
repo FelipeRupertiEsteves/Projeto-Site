@@ -1,3 +1,5 @@
+
+
 // Calculadora
 var valor;
 var resultado;
@@ -54,5 +56,3 @@ function submitToDo(){
         node0.remove();
     })
 }
-
-
