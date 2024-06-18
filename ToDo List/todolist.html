@@ -5,19 +5,34 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Felipe Ruperti Esteves</title>
+        <title>To Do List</title>
         <meta name="description" content="Meu Site de estudos">
+        
         <!-- Link do Bootstrap ao site -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="./Style/style.css">
+        
         <!-- Ícone favicon à aba do navegador quando mostrar o site -->
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <script language="javascript" src="script.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Atalhos para área de trabalho Mobile -->
+        <link rel="shortcut icon" href="http://yourdomain.com/path/icon57.png" />
+        <link rel="apple-touch-icon" href="http://yourdomain.com/path/icon57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://yourdomain.com/path/icon72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://yourdomain.com/path/icon114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://yourdomain.com/path/icon144.png" />
+
     </head>   
 <style>
+
+
+<!-- Hex codes for collorset, Antique white # F4F1DE, terra cotta # E07A5F, deep slate blue # 3D405B, muted sage green # 81B29A -->
+
+
 body {
   margin: 0;
   min-width: 250px;
@@ -53,18 +68,19 @@ ul li {
 
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
-  background: #f9f9f9;
+  background: #F4F1DE;
 }
 
 /* Darker background-color on hover */
 ul li:hover {
-  background: #ddd;
+  background: #81B29A;
+  box-shadow: #E07A5F;
 }
 
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
-  background: #888;
-  color: #fff;
+  background: #3D405B;
+  color: #F4F1DE;
   text-decoration: line-through;
 }
 
@@ -72,7 +88,7 @@ ul li.checked {
 ul li.checked::before {
   content: '';
   position: absolute;
-  border-color: #fff;
+  border-color: #F4F1DE;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 10px;
@@ -91,15 +107,15 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
-  color: white;
+  background-color: #E07A5F;
+  color: #F4F1DE;
 }
 
 /* Style the header */
 .header {
-  background-color: #f44336;
+  background-color: #E07A5F;
   padding: 30px 40px;
-  color: white;
+  color: #F4F1DE;
   text-align: center;
 }
 
@@ -125,8 +141,8 @@ input {
 .addBtn {
   padding: 10px;
   width: 25%;
-  background: #d9d9d9;
-  color: #555;
+  background: #3D405B;
+  color: #F4F1DE;
   float: left;
   text-align: center;
   font-size: 16px;
@@ -136,17 +152,17 @@ input {
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: #81B29A;
 }
 </style>
 </head>
 <body>
 
-<div id="myDIV" class="header">
-  <h2 style="margin:5px">My To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-</div>
+    <div id="myDIV" class="header">
+    <h2 style="margin:5px">Liste aqui</h2>
+    <input type="text" id="myInput" placeholder="Title...">
+    <span onclick="newElement()" class="addBtn">Adicionar</span>
+    </div>
 
 <ul id="myUL">
   
@@ -189,7 +205,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("You must write something!");
+    alert("Você precisa escrever algo!");
   } else {
     document.getElementById("myUL").appendChild(li);
   }
