@@ -1,36 +1,21 @@
 *{
     padding: 0;
     margin: 0;
-    
 }
-
-/* <uniquifier>: Use a unique and descriptive class name
- <weight>: Use a value from 100 to 900 */
-
-.montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-
 body{
     font-family: "Montserrat", sans-serif;
-    background-image: linear-gradient(to top, #68a5e6, #C3CEDA);
+    background-image: linear-gradient(to right, #111111, #292929);
     background-attachment: fixed;
     font-size: 1.2em;
 }
-
 main {
-    border-radius: 10px;
-    background-color: rgb(229, 234, 238);
-    box-shadow: 5px 5px 15px rgba(20, 53, 95, 0.295);
-    width: 900px;
-    padding: 20px;
-    margin: 10px auto;
+    border-radius: 20px;
+    background-color: #ffeada;
+    box-shadow: 5px 5px 10px #ffead8af;
+    width: 50%;
+    padding: 2%;
+    margin: 1% auto;
 }
-
 title{
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -39,35 +24,28 @@ title{
     padding: 20px;
     text-align: center;
 }
-
 h1{
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
+    color: rgba(71, 71, 235, 0.925);
     font-weight: 500;
     font-style: normal;
     padding: 20px;
     text-align: center;
 }
-
 section{    
     align-content: center;    
 }
-
-li{
-    color: steelblue;
+h2{
+    opacity: 100%;
+    transition: opacity 3s;
 }
-
-/* Manutenção */ 
-
-
-
+li{
+    color: #111111;
+}
 /* Estilo página da Lampada */
 #interruptor {
-    
 }
-
-
-
 /* Estilo da Calculadora */
 .calculadora{
     display: flex;
@@ -90,11 +68,3 @@ li{
     background-color: black;
     color: rgb(225, 243, 243);
 }
-
-/* Estilo TODO list */
-.tododiv {
-    background-color: aqua;
-    
-}
-
-/* Estilo Tela de Cadastro */
