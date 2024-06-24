@@ -9,9 +9,7 @@ body{
     font-size: 1.2em;
 }
 main {
-    border-radius: 20px;
     background-color: #ffeada;
-    box-shadow: 5px 5px 10px #ffead8af;
     width: 50%;
     padding: 2%;
     margin: 1% auto;
@@ -23,6 +21,9 @@ title{
     font-style: normal;
     padding: 20px;
     text-align: center;
+}
+.subtitulo{
+    border-left: 20%;
 }
 h1{
     font-family: "Josefin Sans", sans-serif;
