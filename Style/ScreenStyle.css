@@ -1,18 +1,31 @@
+@charset "UTF-8";
+
+/*
+Estilo para telas grandes
+
+-- PALETA DE CORES PRINCPAIS --
+ethereal ivory #E4E4DE
+sophisticated sage #C4C5BA
+timeless noir #1B1B1B
+muted moss #595f39
+*/
+
 *{
     padding: 0;
     margin: 0;
 }
 body{
     font-family: "Montserrat", sans-serif;
-    background-image: linear-gradient(to right, #111111, #292929);
+    background-image: linear-gradient(to right, #C4C5BA, #b5b6ac);
     background-attachment: fixed;
     font-size: 1.2em;
 }
 main {
-    background-color: #ffeada;
+    background-color: #E4E4DE;
     width: 50%;
     padding: 2%;
     margin: 1% auto;
+    border-radius: 2%;
 }
 title{
     font-family: "Josefin Sans", sans-serif;
@@ -34,15 +47,27 @@ h1{
     padding: 20px;
     text-align: center;
 }
+.FRE{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #595f39;
+    text-shadow: 1px 6px 15px #ffffff;
+}
 section{    
     align-content: center;    
 }
 h2{
-    opacity: 100%;
-    transition: opacity 3s;
+    color: #595f39;
+    text-align: center;
+    padding: 10px;
+}
+.centralize{
+    align-content: center;
+}
+ul{
+    list-style-type: none;
 }
 li{
-    color: #111111;
+    display: inline-flex;
 }
 /* Estilo página da Lampada */
 #interruptor {
@@ -68,4 +93,7 @@ li{
     box-shadow: 10px teal;
     background-color: black;
     color: rgb(225, 243, 243);
+}
+.card{
+    
 }

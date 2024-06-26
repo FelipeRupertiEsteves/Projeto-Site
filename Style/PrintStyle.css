@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Estilo para Impressão */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Este documento foi impresso de https://feliperupertiesteves.github.io/Projeto-Site/ '
+}
